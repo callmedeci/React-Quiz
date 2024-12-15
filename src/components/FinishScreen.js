@@ -12,7 +12,7 @@ function FinishScreen({ points, maxPossiblePoints, highscore, dispatch }) {
   return (
     <>
       <p className="result">
-        <span>{emoji}</span> You scored <strong>{points}</strong> out of
+        <span>{emoji}</span> You scored <strong>{points}</strong> out of{" "}
         {maxPossiblePoints} ({Math.ceil(precentage)}%)
       </p>
       <p className="highscore">(Highscore: {highscore} points)</p>
